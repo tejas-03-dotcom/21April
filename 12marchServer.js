@@ -60,5 +60,5 @@ app.get('/api/option-chain', async (req, res) => {
     }
 });
 
-const PORT = 3000;
+const PORT = 3000|| 5000;
 app.listen(PORT, () => console.log(`Server running at http://localhost:${PORT}`));
